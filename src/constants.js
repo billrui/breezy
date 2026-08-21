@@ -9,6 +9,8 @@ export const featured = [
       tag: "Tall and formal — the classic choice for lining a driveway." },
     { slug: "foxtail-palm", name: "Foxtail Palm", bot: "Wodyetia bifurcata", cat: "Driveways", icon: "car",
       tag: "Neat, fast and drought-tough — a driveway favourite." },
+    { slug: "sago-cycad", name: "Sago Cycad", bot: "Cycas revoluta", cat: "Feature & entryways", icon: "trees",
+      tag: "A symmetrical, prehistoric rosette — a hardy showpiece for beds, pots and entryways." },
     { slug: "ashoka", name: "Ashoka", bot: "Polyalthia longifolia", cat: "Privacy & boundaries", icon: "shield",
       tag: "Slim, dense columns — the go-to for privacy screens and walls." },
     { slug: "travellers-palm", name: "Traveller's Palm", bot: "Ravenala madagascariensis", cat: "Privacy & feature", icon: "trees",

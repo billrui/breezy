@@ -72,4 +72,3 @@ This builds `dist/` and pushes it to a `gh-pages` branch. Then set
 Most site content (services, the plant catalogue, contact details, the
 WhatsApp link) lives in **`src/constants.js`** — edit there to update the
 site without touching the components.
-# breezy
