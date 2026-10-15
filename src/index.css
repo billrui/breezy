@@ -1,0 +1,13 @@
+html, body, #root { margin: 0; padding: 0; }
+
+/* Sticky-safe horizontal clip — no sideways scroll at any width. */
+html { overflow-x: clip; }
+
+/* Smooth in-page scrolling, with the sticky navbar's height accounted for
+   so anchored sections aren't hidden underneath it. */
+html { scroll-behavior: smooth; }
+:target, section[id], header[id] { scroll-margin-top: 84px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
